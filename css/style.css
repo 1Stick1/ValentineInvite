@@ -1,0 +1,168 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+div[class$=container] {
+  max-width: 1000px;
+  padding: 0 0px;
+  margin: 0 auto;
+}
+
+body {
+  background: linear-gradient(#fb8fff 60%, #fff);
+  font-family: "Russo One", sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.content {
+  flex: 1 1 auto;
+}
+
+* {
+  -webkit-text-stroke: 1px #000000;
+}
+
+.content {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin: 250px auto;
+  width: 300px;
+  height: 300px;
+  background-image: url(../img/heart.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.text1 {
+  display: block;
+  margin-top: 40px;
+  margin-left: 30px;
+  font-size: 20px;
+}
+
+.text3 {
+  display: block;
+  margin-top: 40px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.text2 {
+  display: block;
+  margin-left: 54px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.button {
+  margin-top: 10px;
+  display: block;
+  width: 100px;
+  height: 30px;
+  margin-left: 170px;
+}
+.button button {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+.button a {
+  -webkit-text-stroke: 0px #000000;
+  text-decoration: none;
+  color: black;
+}
